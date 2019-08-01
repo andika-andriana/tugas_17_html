@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utp-8">
+  <title>Tugas 17 - HTML - Niomic</title>
+  <meta name="author" content="Andika Andriana">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/aa_icon.ico">
+</head>
+<body>
+  <h1>Formulir Pendaftaran</h1>
+  <form>
+    <p>Cari Data:
+      <input type="search"/>
+    </p>
+    <p>Nama Lengkap:
+      <input type="text"/>
+    </p>
+    <p>Alamat Website:
+      <input type="url"/>
+    </p>
+    <p>Umur:
+      <input type="number" minlength="10" maxlength="35" placeholder="Min 10th Maks 35th" required oninvalid="this.setCustomValidity('Anda Tidak Memenuhi!')"/>
+    <p>No Hp:
+      <input type="tel"/>
+    </p>
+    <p>Seberapa mengerti Anda tenang materi ini?
+      <sup>1</sup>
+      <input type="range" min="1" max="10" value="10"/>
+      <sup>10</sup>
+    </p>
+    <p>
+    <input type="submit" value="Submit"/>
+    </p>
+  </form>
+</body>
+</html>
